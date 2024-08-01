@@ -77,7 +77,9 @@ This project analyzes Amazon sales data to uncover trends, patterns, and insight
 
 - **Python**: For data analysis.
 - **Pandas**: For data cleaning and manipulation.
-- **Matplotlib**: For data visualization.
+- **Scikit-Learn**: For machine learning models.
+- **Matplotlib and Seaborn**: For creating plots and visualizations.
+- **Jupyter Notebook**: For coding and presenting results.
 
 
 ## Conclusion

@@ -1,6 +1,5 @@
 
-
-<center><h1> Amazon Sales Analysis </h1></center>
+<h1 align="center">Amazon Sales Analysis</h1>
 
 
 ## Introduction
@@ -56,13 +55,23 @@ This project analyzes Amazon sales data to uncover trends, patterns, and insight
 
 ## Data Dictionary
 
-- **`Order_ID`**: Unique order identifier.
+- **`Order_ID`**: Unique number for each order.
 - **`Order_Date`**: Date of the order.
 - **`Sales`**: Sales amount.
-- **`Revenue`**: Revenue generated.
-- **`Channel`**: Sales channel (Online, Offline).
+- **`Total Revenue`**: Total money from the sale.
+- **`Sales Channel`**: How the sale was made (Online, Offline).
 - **`Region`**: Geographic region.
 - **`Item_Type`**: Product category (e.g., Electronics, Clothing).
+- **`Country`**: The specific country of the sale.
+- **`Order Priority`**: How urgent the order was.
+- **`Ship Date`**: When the order was shipped.
+- **`Units Sold`**: Number of items sold.
+- **`Unit Price`**: Price of one item.
+- **`Unit Cost`**: Cost to make or buy one item.
+- **`Total Cost`**: Total cost to make or buy the items.
+- **`Total Profit`**: Money made from the sale after costs.
+
+
 
 
 ## Limits
@@ -77,10 +86,9 @@ This project analyzes Amazon sales data to uncover trends, patterns, and insight
 
 - **Python**: For data analysis.
 - **Pandas**: For data cleaning and manipulation.
-- **Scikit-Learn**: For machine learning models.
-- **Matplotlib and Seaborn**: For creating plots and visualizations.
-- **Jupyter Notebook**: For coding and presenting results.
-
+- **Matplotlib & Seaborn**: For data visualization.
+- **Sklearn**: To predicting
+- **Jupyter Notebook**: For implementing code
 
 ## Conclusion
 

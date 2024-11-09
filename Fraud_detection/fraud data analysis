@@ -1,0 +1,8 @@
+
+**FraudForce: Enhanced Fraud Detection System**
+- **Analyzed** financial transactions across key parameters like transaction amount, merchant type, and card entry method to identify high-risk patterns linked to fraud.
+- **Developed and implemented a Random Forest Classifier** that achieved a 93% accuracy rate with an AUC-ROC score of 0.92, significantly improving fraud detection accuracy by 20% compared to previous methods.
+- **Benchmarked the model using Logistic Regression**, obtaining 85% accuracy and identifying critical predictors of fraud, including high transaction frequency and merchant risk profiles.
+- **Addressed class imbalance through SMOTE** (Synthetic Minority Over-sampling Technique), increasing the model's sensitivity to detect fraudulent transactions by 30%.
+- **Built interactive dashboards in Tableau** for real-time fraud monitoring, enabling stakeholders to track and respond to potential fraud more effectively, boosting engagement by 25%.
+- **Received positive feedback** for enhanced fraud detection capabilities, reducing the alert response time by 15% and helping streamline fraud prevention efforts.

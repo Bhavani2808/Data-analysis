@@ -1,8 +1,32 @@
 
-**FraudForce: Enhanced Fraud Detection System**
-- **Analyzed** financial transactions across key parameters like transaction amount, merchant type, and card entry method to identify high-risk patterns linked to fraud.
-- **Developed and implemented a Random Forest Classifier** that achieved a 93% accuracy rate with an AUC-ROC score of 0.92, significantly improving fraud detection accuracy by 20% compared to previous methods.
-- **Benchmarked the model using Logistic Regression**, obtaining 85% accuracy and identifying critical predictors of fraud, including high transaction frequency and merchant risk profiles.
-- **Addressed class imbalance through SMOTE** (Synthetic Minority Over-sampling Technique), increasing the model's sensitivity to detect fraudulent transactions by 30%.
-- **Built interactive dashboards in Tableau** for real-time fraud monitoring, enabling stakeholders to track and respond to potential fraud more effectively, boosting engagement by 25%.
-- **Received positive feedback** for enhanced fraud detection capabilities, reducing the alert response time by 15% and helping streamline fraud prevention efforts.
+## **Project Title: Fraud Detection in Transactional Data using Machine Learning**
+
+**Project Description:**
+This project focuses on identifying fraudulent transactions within a financial dataset using machine learning techniques. The dataset contains 100,000 transactions, each with attributes such as transaction details, card type, entry mode, merchant group, transaction country, user demographics, and fraud labels. With these diverse features, the goal was to build an effective model that accurately distinguishes fraudulent from legitimate transactions.
+
+**Data Overview:**
+- The dataset includes 16 columns: Transaction ID, Date, Day of Week, Time, Type of Card, Entry Mode, Amount, Type of Transaction, Merchant Group, Country of Transaction, Shipping Address, Country of Residence, Gender, Age, Bank, and Fraud.
+- Missing values were handled, particularly in columns like 'Amount,' 'Merchant Group,' 'Shipping Address,' and 'Gender.'
+- Numerical features such as 'Time,' 'Amount,' and 'Age' were preprocessed using imputation and scaling, while categorical features underwent encoding.
+
+**Model Development:**
+- The machine learning pipeline was built using a Random Forest Classifier, selected for its robustness and interpretability.
+- Preprocessing was performed using ColumnTransformer, with SimpleImputer and StandardScaler for numerical features, and OneHotEncoder for categorical features.
+- The model was fine-tuned through GridSearchCV, yielding an optimized Random Forest Classifier.
+
+**Results:**
+- **Accuracy:** 98%
+- **AUC (Area Under Curve):** 0.9927, indicating excellent model performance in distinguishing between fraudulent and non-fraudulent transactions.
+- **Precision for fraud (1):** 97%
+- **Recall for fraud (1):** 74%, showing the model’s ability to capture fraudulent transactions effectively.
+- **Confusion Matrix:** 
+  - True Positives (Fraud detected correctly): 1,586
+  - True Negatives (Legitimate transactions detected correctly): 27,773
+  - False Positives: 18
+  - False Negatives: 623
+
+**Deployment:**
+The best model was saved as a serialized file, 'best_rf_fraud_detection_model.pkl', enabling quick deployment and integration into production systems for real-time fraud detection.
+
+**Conclusion:**
+The project successfully demonstrated high accuracy in fraud detection, offering a reliable tool for identifying potential fraud in financial transactions. The model’s high AUC and balanced precision-recall metrics ensure both accuracy and practical applicability in real-world scenarios.

@@ -1,0 +1,9 @@
+Project Overview: Customer Churn Prediction Analysis
+Objective:
+This project addresses the critical challenge of customer churn by building a predictive model to identify customers at risk of leaving the organization. High customer attrition can negatively affect revenue and brand loyalty, making it essential to understand and predict churn behavior. By leveraging customer demographics, financial behavior, and service usage, the goal is to enhance retention strategies.
+
+Methodology:
+A comprehensive data analysis was conducted to identify factors contributing to customer churn. Key steps included data cleaning, handling missing values, and encoding categorical variables. Exploratory data analysis (EDA) highlighted impactful features, such as income, tenure, credit score, loan history, and complaints. The Random Forest Classifier was selected as the predictive model, utilizing cross-validation to optimize model performance. This classifier was fine-tuned and validated to ensure high accuracy and reliability.
+
+Results and Insights:
+The model achieved an accuracy of 98.79%, with precision and recall metrics indicating strong predictive power. The classifier demonstrated a 99% precision rate for non-churning customers and 98% for those likely to churn, validating its utility in identifying at-risk customers. Insights derived from this analysis enable targeted customer retention strategies, providing the organization with data-driven guidance to improve customer loyalty and reduce churn rates.
